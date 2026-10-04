@@ -1,0 +1,46 @@
+{
+  "models": {
+    "KNN": {
+      "best_params": {
+        "clf__n_neighbors": 15
+      },
+      "cv_acc": 0.6716506079421176,
+      "segment_acc": 0.682,
+      "segment_macro_f1": 0.6791298910861518,
+      "track_acc": 0.79,
+      "track_macro_f1": 0.7851112426401956
+    },
+    "LogReg": {
+      "best_params": {
+        "clf__C": 0.1
+      },
+      "cv_acc": 0.6942035788914873,
+      "segment_acc": 0.7065,
+      "segment_macro_f1": 0.6999348832344029,
+      "track_acc": 0.815,
+      "track_macro_f1": 0.8099693229095818
+    },
+    "RandomForest": {
+      "best_params": {
+        "clf__max_depth": 20
+      },
+      "cv_acc": 0.7141438598121788,
+      "segment_acc": 0.734,
+      "segment_macro_f1": 0.7284201213406964,
+      "track_acc": 0.825,
+      "track_macro_f1": 0.8207828527822857
+    },
+    "SVM-RBF": {
+      "best_params": {
+        "clf__C": 50,
+        "clf__gamma": "scale"
+      },
+      "cv_acc": 0.7554858929231079,
+      "segment_acc": 0.7765,
+      "segment_macro_f1": 0.7730792543814742,
+      "track_acc": 0.855,
+      "track_macro_f1": 0.8529618502171268
+    }
+  },
+  "best_by_cv": "SVM-RBF"
+}

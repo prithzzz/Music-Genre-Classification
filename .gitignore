@@ -2,5 +2,3 @@ data/
 __pycache__/
 .venv/
 *.pyc
-*.keras
-*.joblib

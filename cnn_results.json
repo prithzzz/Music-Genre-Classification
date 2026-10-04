@@ -1,0 +1,7 @@
+{
+  "params": 423466,
+  "segment_acc": 0.7625,
+  "segment_macro_f1": 0.7555902979677604,
+  "track_acc": 0.825,
+  "track_macro_f1": 0.818920432744448
+}
