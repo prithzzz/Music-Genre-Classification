@@ -2,9 +2,7 @@
 
 Classifying 30-second audio clips into one of 10 genres using the GTZAN dataset, with two approaches: classical ML on hand-crafted audio features, and a CNN on log-mel spectrograms. Includes a Streamlit web app for live predictions.
 
-**Team:** `<Name 1> (SRN)` · `<Name 2> (SRN)`
-**Repository:** https://github.com/prithzzz/Music-Genre-Classification
-**Course / Faculty:** `<Course name>` · `<Faculty name>`
+**Team:** `S Prithika (PES2UG24CS415)` · `Samanvith Kashyap (PES2UG24CS432)`
 
 ---
 
