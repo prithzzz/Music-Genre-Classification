@@ -6,7 +6,7 @@ from tqdm import tqdm
 from common import *
 
 
-def split_tracks(tracks):
+def split_tracks(tracks): #70/20/10
     rng = np.random.RandomState(SEED)
     split = {}
     for g in GENRES:
@@ -29,7 +29,7 @@ rows, mels, skipped = [], [], []
 for p, g in tqdm(files, desc="extracting"):
     try:
         y = load_audio(p)
-    except Exception as e:          # Fixed bug ew: GTZAN's jazz.00054.wav is known to be corrupt
+    except Exception as e:          # Fixed bug ew: GTZAN's jazz.00054.wav is corrupt
         skipped.append((p.name, str(e)[:60]))
         continue
     for k, seg in enumerate(segment_signal(y)):
